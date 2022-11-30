@@ -123,6 +123,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="NLog">
+      <Version>4.7.15</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
   </ItemGroup>
@@ -132,5 +135,8 @@
       <Project>{1D53A597-89F5-494E-976A-D41720E9569A}</Project>
       <Name>XamarinNLogExample</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NLog.config" />
   </ItemGroup>
 </Project>
